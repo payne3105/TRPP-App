@@ -1,2 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <style name="Header1">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">64sp</item>
+        <item name="android:lineSpacingExtra">-42sp</item>
+    </style>
+
+    <style name="Header2">
+        <item name="android:fontFamily">@font/gilroy_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">46sp</item>
+        <item name="android:lineSpacingExtra">-24sp</item>
+    </style>
+    <style name="Header3">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:lineSpacingExtra">-10sp</item>
+    </style>
+    <style name="Text2">
+        <item name="android:fontFamily">@font/gilroy_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+    </style>
+    <style name="Text">
+        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+    <style name="Text3">
+        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+    </style>
+</resources>
