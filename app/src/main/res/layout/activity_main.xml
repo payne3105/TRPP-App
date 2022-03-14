@@ -1,19 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="428dp"
     android:layout_height="926dp"
     android:background="#1c1c1e">
 
-
     <TextView
         style="@style/Header1"
-        android:textColor="#ffffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/thank_you"/>
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="363dp"
+        android:layout_marginBottom="485dp"
+        tools:text="Thank You!"/>
 
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="360dp"
+        android:layout_height="44dp"
+        android:layout_centerInParent="true"
+        android:alpha="0.8"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/description"
+        android:textAppearance="@style/Text2"
+        android:textColor="@color/white" />
 
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="522dp"
+        android:layout_marginBottom="354dp"
+        android:backgroundTint="@color/light_purple"
+        android:elevation="15dp"
+        android:text="@string/continue_button"
+        android:textAppearance="@style/Text2" />
 
+    <!-- IT SHOULD BE A BUTTON -->
+
+    <Button
+        android:id="@+id/ordersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="@string/go_to_orders"
+        android:textAppearance="@style/Text2"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="52dp"
+        android:layout_alignTop="@+id/continueButton"
+        android:alpha="0.7"/>
 
 </RelativeLayout>
