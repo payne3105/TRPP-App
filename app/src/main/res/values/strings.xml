@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">TRPP-App</string>
-    <string name="thank_you">sThank You!</string>
+    <string name="thank_you">Thank You!</string>
     <string name="description">Your payment was successful! Just wait your custom arrive at home.</string>
     <string name="continue_button">Continue Shopping</string>
     <string name="go_to_orders">Go to orders</string>
